@@ -30,7 +30,7 @@ import pageObjects.LandingPage;
 
 public class baseTest {
 	
-	
+	//i made changes
 	public WebDriver driver;//after creating gobally,edit locally
 	public LandingPage landingpage;
 
@@ -48,7 +48,7 @@ public class baseTest {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("edge")) {
-			WebDriverManager.edgedriver().avoidBrowserDetection().setup();
+			WebDriverManager.edgedriver().setup();
 			driver =new EdgeDriver();
 			//WebDriverManager.edgedriver().setup();
 			//driver = new EdgeDriver();
