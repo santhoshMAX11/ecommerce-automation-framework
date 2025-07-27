@@ -33,7 +33,7 @@ import pageObjects.ConfirmationPage;
 import pageObjects.LandingPage;
 import pageObjects.OrderPage;
 import pageObjects.ProductCatague;
-
+//updated files
 public class FinaloutTest extends baseTest {
 	String product = "ZARA COAT 3";
 
