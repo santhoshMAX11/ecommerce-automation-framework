@@ -19,7 +19,7 @@ import org.testng.Assert;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StandAloneTest {
-// updated
+	//updated
 	public static void main(String[] args) throws InterruptedException {
 		String product="ZARA COAT 3";
 		WebDriverManager.chromedriver().setup();
