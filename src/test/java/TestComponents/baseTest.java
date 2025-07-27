@@ -30,7 +30,7 @@ import pageObjects.LandingPage;
 
 public class baseTest {
 	
-	//i made changes
+	
 	public WebDriver driver;//after creating gobally,edit locally
 	public LandingPage landingpage;
 
@@ -66,6 +66,7 @@ public class baseTest {
 		driver = initializeDriver();
 		landingpage = new LandingPage(driver);
 		landingpage.goToUrl();
+		driver.manage().window().maximize();
 		//System.out.println("Launching browser instance: " + Thread.currentThread().getId());
         return landingpage;
 	}

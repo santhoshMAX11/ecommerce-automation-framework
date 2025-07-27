@@ -22,17 +22,7 @@ public class CheckOutPage  extends AbstractComponent{
 	
 	
 	
-//	wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector(".input.txt.text-validated")));
-//	driver.findElement(By.xpath("(//*[@class='input txt'])[1]")).sendKeys("1109");
-//	driver.findElement(By.xpath("(//*[@class='input txt'])[2]")).sendKeys("santoman");
-//	driver.findElement(By.cssSelector("[placeholder='Select Country']")).sendKeys("India");
-//	
-	//wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector(".ta-item.list-group-item.ng-star-inserted")));
-//    List<WebElement> country=	driver.findElements(By.cssSelector(".ta-item.list-group-item.ng-star-inserted"));
-//    country.stream().filter(f->f.getText().equals("India")).findFirst().ifPresent(WebElement::click);
-//    wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".btnn.action__submit.ng-star-inserted")));
-//    Thread.sleep(5000);
-//	driver.findElement(By.cssSelector(".btnn.action__submit.ng-star-inserted")).click();
+
 	@FindBy(xpath = "(//*[@class='input txt'])[1]")
 	WebElement cvv;
 	@FindBy(xpath = "(//*[@class='input txt'])[2]")
