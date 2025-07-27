@@ -23,8 +23,6 @@ public class AbstractComponent {
 		PageFactory.initElements(driver, this);
 	}
 
-
-	//driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
 	@FindBy(xpath = "//*[@routerlink='/dashboard/cart']")
 	WebElement cartpage;
 	
