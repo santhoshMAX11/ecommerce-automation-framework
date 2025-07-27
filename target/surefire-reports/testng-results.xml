@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-27T15:12:52 IST" name="Suite" finished-at="2025-07-27T15:14:52 IST" duration-ms="120034">
+    <groups>
+    </groups>
+    <test started-at="2025-07-27T15:12:52 IST" name="regressionTest" finished-at="2025-07-27T15:14:14 IST" duration-ms="82169">
+      <class name="test.FinaloutTest">
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:12:52 IST" name="launchingApplication" finished-at="2025-07-27T15:13:10 IST" duration-ms="17777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="finaloutTest(java.util.HashMap)[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:13:10 IST" name="finaloutTest" data-provider="getData" finished-at="2025-07-27T15:13:26 IST" duration-ms="16418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Santoman@11, product=ZARA COAT 3, email=santoman@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finaloutTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:13:26 IST" name="close" finished-at="2025-07-27T15:13:28 IST" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:13:28 IST" name="launchingApplication" finished-at="2025-07-27T15:13:41 IST" duration-ms="12844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="finaloutTest(java.util.HashMap)[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:13:41 IST" name="finaloutTest" data-provider="getData" finished-at="2025-07-27T15:13:58 IST" duration-ms="16560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Santoman@11, product=ADIDAS ORIGINAL, email=dharsh1109@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finaloutTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:13:58 IST" name="close" finished-at="2025-07-27T15:14:00 IST" duration-ms="1685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:14:00 IST" name="launchingApplication" finished-at="2025-07-27T15:14:11 IST" duration-ms="11680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:14:11 IST" name="OrderHistoryTest" finished-at="2025-07-27T15:14:12 IST" depends-on-methods="test.FinaloutTest.finaloutTest" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.FinaloutTest@30f842ca]" started-at="2025-07-27T15:14:12 IST" name="close" finished-at="2025-07-27T15:14:14 IST" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.FinaloutTest -->
+    </test> <!-- regressionTest -->
+    <test started-at="2025-07-27T15:14:15 IST" name="regressionTest1" finished-at="2025-07-27T15:14:52 IST" duration-ms="36690">
+      <class name="test.ErrorValidation">
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:test.ErrorValidation@64b0598]" started-at="2025-07-27T15:14:15 IST" name="launchingApplication" finished-at="2025-07-27T15:14:28 IST" duration-ms="12648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="loginErroValidation()[pri:0, instance:test.ErrorValidation@64b0598]" started-at="2025-07-27T15:14:28 IST" name="loginErroValidation" finished-at="2025-07-27T15:14:29 IST" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErroValidation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ErrorValidation@64b0598]" started-at="2025-07-27T15:14:29 IST" name="close" finished-at="2025-07-27T15:14:31 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:test.ErrorValidation@64b0598]" started-at="2025-07-27T15:14:31 IST" name="launchingApplication" finished-at="2025-07-27T15:14:42 IST" duration-ms="11472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:test.ErrorValidation@64b0598]" started-at="2025-07-27T15:14:42 IST" name="productErrorValidation" finished-at="2025-07-27T15:14:49 IST" duration-ms="7201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.ErrorValidation@64b0598]" started-at="2025-07-27T15:14:49 IST" name="close" finished-at="2025-07-27T15:14:52 IST" duration-ms="2619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.ErrorValidation -->
+    </test> <!-- regressionTest1 -->
+  </suite> <!-- Suite -->
+</testng-results>
